@@ -4,7 +4,7 @@ HESK customization for the DGSC HESK instance for form submission.
 Current DGSC Hesk install on server: `/home/opencuny/public_html/dgsc/forms/`
 
 ## Language 
-The folder `dgsc` in `language` enables one to change the displayed text Hesk uses in generating pages. An obvious example is replacing 'ticket' with 'form' everywhere. 
+The folder `dgsc` in `language` enables one to change the text Hesk uses in generating pages. An obvious example is replacing 'ticket' with 'form' everywhere. 
 To effect changes, open `text.php` and replace any string *on the right hand side* of the definitions as desired, then replace file on cPanel in the corresponding directory. 
 
 Additional instructions: https://www.hesk.com/knowledgebase/?article=34
