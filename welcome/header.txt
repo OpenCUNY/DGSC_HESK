@@ -1,0 +1,14 @@
+<!-- Custom code to be included after <body> tag -->
+
+<style>
+.center-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 10%;
+}
+</style>
+
+<img src="https://opencuny.org/files/2024/08/dgsc-logo-square.png" alt="DGSC logo" class="center-logo">
