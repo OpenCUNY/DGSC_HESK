@@ -16,7 +16,7 @@ Among other things, the folder `DGSC` in theme enables one to:
 
 For the first, go to `/DGSC/customer/css/` and edit `app.min.css` (*not* app.css) as desired (e.g., using CUNY colors).
 
-For the second, edit `print-ticket.php` in `/DGSC/`. The PHP variables refer straightforwardly to the columns in the `tickets` table in the Hesk database available in cPanel through `phpMyAdmin`. There is a bit of RegEx magic to deal with the weird way the `attachments' field is generated in the database. Otherwise it's `HTML` and `CSS`. 
+For the second, edit `print-ticket.php` in `/DGSC/`. The PHP variables refer straightforwardly to the columns in the `tickets` table in the Hesk database available in cPanel through `phpMyAdmin`. There is a bit of RegEx magic to deal with the weird way the `attachments` field is generated in the database. Otherwise it's `HTML` and `CSS`. 
 
 ## Welcome
 The folder `/welcome/` includes the files `footer.txt`, `head.txt`, and `header.txt`. These files are used by Hesk to append additional content to the generated public-facing user panel. Most importantly, `header.txt` puts the DGSC logo at the top of the page. 
